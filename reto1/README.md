@@ -2,7 +2,7 @@
 
 1. Pantallazo donde se vea la creación del contenedor y podamos comprobar que el contenedor está funcionando.
 
-Solucion
+###### Solucion
 
 ![Screenshot](./img/reto1_0.png)
 ---
@@ -10,7 +10,7 @@ Solucion
 
 2. Pantallazo donde se vea el acceso al servidor web utilizando un navegador web (recuerda que tienes que acceder a la ip del ordenador donde tengas instalado docker)
 
-Solucion
+###### Solucion
 
 ![Screenshot](./img/reto1_1.png)
 ---
@@ -18,7 +18,7 @@ Solucion
 
 3. Pantallazo donde se vean las imágenes que tienes en tu registro local
 
-Solucion
+###### Solucion
 
 ![Screenshot](./img/reto1_2.png)
 ---
@@ -26,6 +26,6 @@ Solucion
 
 4. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe estar parado el contenedor).
 
-Solucion
+###### Solucion
 
 ![Screenshot](./img/reto1_3.png)
