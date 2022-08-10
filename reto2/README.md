@@ -14,6 +14,8 @@
 ###### Solucion
 
 ![Screenshot](./img/reto2_1.png)
+<br>
+
 ![Screenshot](./img/reto2_2.png)
 ---
 <br>
