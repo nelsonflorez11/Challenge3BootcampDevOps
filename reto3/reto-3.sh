@@ -18,7 +18,7 @@ do
             docker volume create static_content
             docker build -t bootcamp_nginx .
             docker run -d --name bootcamp_container \
-            -v $PWD/static_content:/usr/share/nginx/html \
+            -v static_content:/usr/share/nginx/html \
             -p 8080:80 \
             bootcamp_nginx;;
         "Aautenticarse en docker hub, agregar tag imagen local, publicar imagen en docker hub")
