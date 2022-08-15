@@ -1,5 +1,7 @@
 # Reto 4 - Ejercicio 1 - Crear imagen de Apache
 
+###### Nota: se realizo un script que automatiza los pasos
+
 1. Crea una imagen con un servidor web Apache y el mismo contenido que en la carpeta content.
 
 
