@@ -1,20 +1,15 @@
 #!/bin/bash
 
-#correr export desde la misma shell que ejecute el script, remplazando XXXXXXXX como corresponda 
-
-#export user_docker=XXXXXXXX
-#export passwd_docker=XXXXXXXX
-
 PS3='Please enter your choice: '
 options=(
-        "Crear volumen, crear imagen con Dockerfile, inicar contendor en el puerto 5050 y visualizar pagina con !!HOMEWORK 4"
+        "Crear volumen, crear imagen con Dockerfile, inicar contendor en el puerto 5050 http://localhost:5050/"
         "Averiguar cuántas capas tiene mi nueva imagen"
         "Eliminar todos los contenedores y todas las imagenes"
         "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
-        "Crear volumen, crear imagen con Dockerfile, inicar contendor en el puerto 5050 y visualizar pagina con !!HOMEWORK 4")
+        "Crear volumen, crear imagen con Dockerfile, inicar contendor en el puerto 5050 http://localhost:5050/")
             docker volume create static_content
             docker build -t simple-apache:new .
             docker run -d --name my_apache \
