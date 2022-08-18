@@ -27,6 +27,16 @@
 ---
 <br>
 
+![Screenshot](./img/reto5_8.png)
+
+---
+<br>
+
+![Screenshot](./img/reto5_7.png)
+
+---
+<br>
+
 
 3.  Subir la aplicacion en registry
 
@@ -39,7 +49,7 @@
 
 ![Screenshot](./img/reto5_4.png)
 
-
+---
 
 4. Crear el Script que permita realizar todo lo antes mencionado
 
