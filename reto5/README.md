@@ -24,17 +24,17 @@
 
 ![Screenshot](./img/reto5_2.png)
 
----
+
 <br>
 
 ![Screenshot](./img/reto5_8.png)
 
----
+
 <br>
 
 ![Screenshot](./img/reto5_7.png)
 
----
+
 <br>
 
 
