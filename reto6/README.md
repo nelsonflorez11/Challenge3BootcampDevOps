@@ -7,6 +7,8 @@
 
 
 ###### Solucion
+![Screenshot](./img/reto6_12.png)
+<br>
 
 ![Screenshot](./img/reto6_0.png)
 <br>
@@ -31,13 +33,7 @@
 
 
 
-2. Crea un contenedor llamado bootcamp-web, con Nginx, accesible desde http://localhost:9999
-
-Copia el contenido de la carpeta bootcamp-web de la unidad en la ruta que sirve este servidor.
-
-Ejecuta ls desde fuera para ver que el contenido se ha copiado correctamente.
-
-Accede a través del navegador de tu máquina.
+2. Crea un contenedor llamado bootcamp-web, con Nginx, accesible desde http://localhost:9999. Copia el contenido de la carpeta bootcamp-web de la unidad en la ruta que sirve este servidor. Ejecuta ls desde fuera para ver que el contenido se ha copiado correctamente.Accede a través del navegador de tu máquina.
 
 
 
