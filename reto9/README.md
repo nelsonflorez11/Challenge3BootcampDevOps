@@ -12,7 +12,7 @@ Hay 1 aplicacion en este proyecto:
 
 ###### Solucion de los puntos anteriores
 
-1. Se realizaron modificaciones en el script  init-db.sh, se crea contraseña y se asignan privilegios al usuario de la app sobre la tabla
+1. Se realizaron modificaciones en el script  init-db.sh, se crea contraseña y se asignan privilegios al usuario de la app sobre la tabla (Esto para fines academicos, nunca exponga sus contraseñas en ambientes productivos)
 
 
 ![Screenshot](./img/reto9_0.png)
