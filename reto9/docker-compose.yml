@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  db:
+    container_name: bd
+    image: nelsonflorez11/postgres:1.0
+    restart: always
+    environment:
+      - POSTGRES_USER=$POSTGRES_USER_ROOT
+      - POSTGRES_DB=$POSTGRES_DB_ROOT
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD_ROOT
+    ports:
+      - '5432:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+  api:
+    container_name: app
+    image: nelsonflorez11/myapp:1.0
+    depends_on:
+      - db
+    ports:
+      - 5000:5000
+    environment:      
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: $POSTGRES_USER_APP
+      POSTGRES_PASSWORD: $POSTGRES_PASSWORD_APP
+      POSTGRES_DB: $POSTGRES_DB_APP
+volumes:
+  db:
+    driver: local
